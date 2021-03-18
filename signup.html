@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color:#1F2833;
+        color: white;
+    }
+    h1 {
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: rgb(255, 253, 253);
+      
+    }
+
+    form {
+        background-color: rgb(124 217 200);
+        border-radius: 10px;
+        width: 700px;
+        margin: auto;
+        color: black
+        
+    }
+
+    div.register {
+        text-align: center;
+        width: 300px;
+        align-items: center;
+        font-size: 25px;
+        /* margin: auto; */
+        margin-left: 400px;
+        font-size: 30px;
+
+    }
+    a{  color:rgb(0, 0, 0);
+        text-decoration: none;
+        
+    }
+    a:hover{
+        color:rgb(2, 0, 122);
+        
+    }
+    button{
+        border: none;
+        border-radius: 25px;
+    }
+    button:hover{
+        background-color:black;
+        color: white;
+    }
+    
+</style>
+
+<body>
+    <div class="main">
+        <h1>REGISTER HERE</h1>
+        <div class="register">
+            <form action="connect.php" target="_blank" method="POST">
+                <label for="Firstname:">Firstname</label><br>
+                <input type="text" style="height: 30px; width: 400px;"name="Firstname" placeholder="Enter your firstname" required>
+                <br>
+                <label for="Lastname">Lastname</label><br>
+                <input type="text" style="height: 30px; width: 400px;"name="Lastname" placeholder="Enter your lastname"required>
+
+                <br> 
+                <label for="email">Email</label><br>
+                <input type="email" style="height: 30px; width: 400px;"name="email" placeholder="Enter your Email"required>
+                <br> 
+                <label for="password">Password</label><br>
+                <input type="text" style="height: 30px; width: 400px;"name="password" placeholder="Enter your password"required>
+                <h5>Gender:</h5>
+                <label for="gender">Male</label>
+                <input type="radio" style="height: 20px;width: 20px;"  name="gender" value="m" required>
+
+                <label for="gender">Female</label>
+                <input type="radio" style="height: 20px;width: 20px;"  name="gender" value="f"> 
+
+                <label for="gender">Others</label>
+                <input type="radio" style="height: 20px;width: 20px;" name="gender" value="o">
+
+                <br><br>
+
+                <span>
+                    <label for="dob">DOB:</label>
+                    <input type="test" style="height: 35px;"  name="dob"required>
+                    <label for="month" >MONTH:</label>
+                    <select name="month"style="height: 35px; " >
+                        <option value=''>--Select Month--</option>
+                        <option selected value='1' >Janaury</option>
+                        <option value='2'>February</option>
+                        <option value='3'>March</option>
+                        <option value='4'>April</option>
+                        <option value='5'>May</option>
+                        <option value='6'>June</option>
+                        <option value='7'>July</option>
+                        <option value='8'>August</option>
+                        <option value='9'>September</option>
+                        <option value='10'>October</option>
+                        <option value='11'>November</option>
+                        <option value='12'>December</option>
+                    </select>
+                    <label for="year" >YEAR:</label>
+                    <select name="year"style="height: 35px;">
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="2013">2013</option>
+                        <option value="2012">2012</option>
+                        <option value="2011">2011</option>
+                        <option value="2010">2010</option>
+                        <option value="2009">2009</option>
+                        <option value="2008">2008</option>
+                        <option value="2007">2007</option>
+                        <option value="2006">2006</option>
+                        <option value="2005">2005</option>
+                        <option value="2004">2004</option>
+                        <option value="2003">2003</option>
+                        <option value="2002">2002</option>
+                        <option value="2001">2001</option>
+                        <option value="2000">2000</option>
+                        <option value="1999">1999</option>
+                        <option value="1998">1998</option>
+                        <option value="1997">1997</option>
+                        <option value="1996">1996</option>
+                        <option value="1995">1995</option>
+                        <option value="1994">1994</option>
+                        <option value="1993">1993</option>
+                        <option value="1992">1992</option>
+                        <option value="1991">1991</option>
+                        <option value="1990">1990</option>
+                        <option value="1989">1989</option>
+                        <option value="1988">1988</option>
+                        <option value="1987">1987</option>
+                        <option value="1986">1986</option>
+                        <option value="1985">1985</option>
+                    </select>
+                </span>
+
+                <br><br>
+                
+                <button style="height: 40px;width:100px;">SUBMIT</button>
+                <br>
+                <label for="check">I agree to the terms and conditions</label>
+                <input style=" size: 15px;" type="checkbox" name="check" required>
+
+                <br>
+                <p style="color: red;">Already a member: <a href="login.html" target="_blank"><i>CLICK HERE</i> </a></p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

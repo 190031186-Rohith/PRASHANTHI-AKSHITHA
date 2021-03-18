@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AnyBodyCanDance</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- inlinestyling -->
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-image: url('dance1.jpg');
+            background-repeat: no-repeat;
+            height: 0px;
+            background-size: 100%;
+            color: white;
+
+
+
+
+        }
+
+        #video {
+            margin-top: 10px;
+            width: 100%;
+
+        }
+
+        .left {
+            /* border: 2px solid rgb(255, 28, 28); */
+            position: absolute;
+            display: inline-block;
+            top: 10px;
+            left: 30px;
+
+
+
+
+        }
+
+        .center {
+            /* border: 2px solid yellow; */
+            /* margin-top: 10px; */
+            margin: 27px auto;
+            width: 600px;
+        }
+
+        .right {
+            /* border: 2px solid rgb(33, 0, 223); */
+            right: 30px;
+            top: 28px;
+            position: absolute;
+        }
+
+        .navigate {
+            display: inline-block;
+
+
+        }
+
+        .login a:hover {
+            background-color: gray;
+        }
+
+        .login a {
+            background-color: white;
+            color: black;
+            border: 2px solid white;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: larger;
+        }
+
+        .navigate li {
+            display: inline-block;
+            font-size: 25px;
+
+
+        }
+
+        .navigate li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 30px;
+
+
+        }
+
+        .navigate li a:hover {
+            color: rgb(6, 241, 45);
+            text-decoration: underline;
+
+        }
+
+        /* 
+        .active:hover {
+            text-decoration: underline;
+        } */
+
+        .invert {
+            filter: invert(100%);
+            width: 100px;
+            height: 70px;
+        }
+
+        .left div {
+            text-align: center;
+
+        }
+
+        .right input {
+            border-radius: 3px;
+            height: 25px;
+        }
+
+        .btn {
+            border: none;
+            border-radius: 25px;
+            font-size: 25px;
+
+
+        }
+
+        .btn:hover {
+            background-color: gray;
+        }
+
+        .container {
+            border: 3px solid white;
+            border-radius: 10px;
+            margin: 61px;
+            width: 450px;
+            padding: 75px;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* .form {
+            border: 3px solid red;
+            border-radius: 10px;
+            width: 450px;
+            height: 150px;
+            text-align: center;
+            padding: 10px 10px;
+            line-height: 10px;
+            align-items: center;
+            align-content: center;
+        } */
+
+        .formin {
+            padding: 5px;
+
+        }
+
+        .formin input {
+            width: 330px;
+            border-radius: 10px;
+            padding: 3px;
+
+        }
+
+        .text {
+            color: black;
+            margin-top: 670px;
+        }
+
+        .test1 {}
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header" id="main">
+            <!-- logo -->
+            <div class="left">
+
+                <img class="invert" src="logo.jpg" alt="error loading">
+                
+            </div>
+
+            <!-- navigation -->
+            <div class="center">
+
+                <div class="navigate">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#" >About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#" >Blog</a></li>
+
+
+
+
+
+                </div>
+                <!-- search -->
+                <div class="right">
+                    <input type="text" style="    height: 35px;width: 271px;"
+                        placeholder="Search for any dance-tutorial">
+                    <button class="btn">
+                        SEARCH
+                    </button>
+                </div>
+            </div>
+
+
+    </header>
+
+    <div class="container">
+        <div class="form">
+            <form >
+                <strong>
+                    <h2>JOIN US</h2>
+                </strong>
+                <!-- <div class="formin">
+                    <input type="text" placeholder="enter your name">
+                </div>
+                <div class="formin">
+
+                    <input type="email" placeholder=" enter your email">
+                </div>
+                <div class="formin">
+                    <input type="text" placeholder="enter your number">
+                </div> -->
+                <p><em>would you like to register with us and become a pro dancer</em></p>
+                <div class="formin">
+                    <button class="btn" type="button" onclick="window.location.href='file:///C:/Users/nerella.rohith/Desktop/dance%20studio/signup.html'">
+                        REGISTER
+                    </button><br>
+            </form>
+
+
+        </div>
+    </div>
+    <div class="login">
+        <p>OR <br>
+            <button class="btn"type="button"onclick="window.location.href='file:///C:/Users/nerella.rohith/Desktop/dance%20studio/login.html'" >Login</button>
+                
+        </p>
+
+    </div>
+
+    </div>
+    </div>
+    
+
+</body>
+
+</html>
